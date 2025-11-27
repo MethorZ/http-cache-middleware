@@ -1,0 +1,60 @@
+{
+    "name": "methorz/http-cache-middleware",
+    "description": "PSR-15 HTTP caching middleware with ETag support and RFC 7234 compliance",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "cache",
+        "cache-control",
+        "conditional-requests",
+        "etag",
+        "http",
+        "middleware",
+        "psr-15",
+        "rfc-7234"
+    ],
+    "authors": [
+        {
+            "name": "Thorsten Merz",
+            "email": "methorz@spammerz.de"
+        }
+    ],
+    "require": {
+        "php": "^8.2 || ^8.3 || ^8.4 || ^8.5",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0 || ^2.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "laminas/laminas-diactoros": "^3.0",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.0 || ^11.0",
+        "slevomat/coding-standard": "^8.0",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "MethorZ\\HttpCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MethorZ\\HttpCache\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "analyze": "phpstan analyze --memory-limit=256M",
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit"
+    }
+}

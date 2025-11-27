@@ -1,0 +1,431 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testComplexDirectiveCombination\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testCreatesDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testFluentInterface\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testImmutableDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testMaxAgeDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testMustRevalidateDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testNoCacheDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testNoStoreDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testNoTransformDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testPrivateDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testProxyRevalidateDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testPublicDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testPublicOverridesPrivate\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testSMaxAgeDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testStaleIfErrorDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testStaleWhileRevalidateDirective\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testToArrayReturnsDirectives\\(\\) throws checked exception PHPUnit\\\\Framework\\\\Exception but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Directive\\\\CacheControlDirectiveTest\\:\\:testToArrayReturnsDirectives\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Directive/CacheControlDirectiveTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testExtractsHashFromEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesConsistentEtagForSameContent\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 6
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesConsistentEtagForSameContent\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesConsistentEtagForSameContent\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 4
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesDifferentEtagForDifferentContent\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 6
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesDifferentEtagForDifferentContent\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesDifferentEtagForDifferentContent\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 4
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesStrongEtag\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesStrongEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesStrongEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesStrongEtag\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWeakEtag\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWeakEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWeakEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWeakEtag\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWithDifferentAlgorithms\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWithDifferentAlgorithms\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testGeneratesWithDifferentAlgorithms\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testIdentifiesWeakEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testMatchesEtagsWithStrongComparison\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Generator\\\\ETagGeneratorTest\\:\\:testMatchesEtagsWithWeakComparison\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 4
+			path: tests/Unit/Generator/ETagGeneratorTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:createResponse\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:createResponse\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsCacheControlHeader\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsCacheControlHeader\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsCacheControlHeader\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsCacheControlHeader\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsEtagToResponse\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsEtagToResponse\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsEtagToResponse\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testAddsEtagToResponse\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDisabledMiddlewareDoesNotModifyResponse\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDisabledMiddlewareDoesNotModifyResponse\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDisabledMiddlewareDoesNotModifyResponse\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDisabledMiddlewareDoesNotModifyResponse\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotCache304Response\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotCache304Response\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotCache304Response\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotCache304Response\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingCacheControl\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingCacheControl\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingCacheControl\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingCacheControl\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingEtag\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingEtag\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingEtag\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testDoesNotOverwriteExistingEtag\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testGeneratesWeakEtagWhenConfigured\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testGeneratesWeakEtagWhenConfigured\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testGeneratesWeakEtagWhenConfigured\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testGeneratesWeakEtagWhenConfigured\\(\\) throws checked exception PHPUnit\\\\Framework\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testGeneratesWeakEtagWhenConfigured\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesMultipleEtagsInIfNoneMatch\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesMultipleEtagsInIfNoneMatch\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesMultipleEtagsInIfNoneMatch\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesMultipleEtagsInIfNoneMatch\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesWildcardInIfNoneMatch\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesWildcardInIfNoneMatch\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesWildcardInIfNoneMatch\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testHandlesWildcardInIfNoneMatch\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testOnlyCachesGetAndHeadMethods\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testOnlyCachesGetAndHeadMethods\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testOnlyCachesGetAndHeadMethods\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testOnlyCachesGetAndHeadMethods\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testReturns304WhenEtagMatches\\(\\) throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testReturns304WhenEtagMatches\\(\\) throws checked exception Laminas\\\\Diactoros\\\\Exception\\\\InvalidArgumentException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 3
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testReturns304WhenEtagMatches\\(\\) throws checked exception PHPUnit\\\\Framework\\\\ExpectationFailedException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 1
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
+
+		-
+			message: "#^Method MethorZ\\\\HttpCache\\\\Tests\\\\Unit\\\\Middleware\\\\CacheMiddlewareTest\\:\\:testReturns304WhenEtagMatches\\(\\) throws checked exception RuntimeException but it's missing from the PHPDoc @throws tag\\.$#"
+			count: 2
+			path: tests/Unit/Middleware/CacheMiddlewareTest.php
