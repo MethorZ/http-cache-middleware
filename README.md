@@ -438,6 +438,22 @@ This middleware handles **validation** (304 responses), not **invalidation**. Fo
 
 ---
 
+## 🔗 Related Packages
+
+This package is part of the MethorZ HTTP middleware ecosystem:
+
+| Package | Description |
+|---------|-------------|
+| **[methorz/http-dto](https://github.com/methorz/http-dto)** | Automatic HTTP ↔ DTO conversion with validation |
+| **[methorz/http-problem-details](https://github.com/methorz/http-problem-details)** | RFC 7807 error handling middleware |
+| **[methorz/http-cache-middleware](https://github.com/methorz/http-cache-middleware)** | HTTP caching with ETag support (this package) |
+| **[methorz/http-request-logger](https://github.com/methorz/http-request-logger)** | Structured logging with request tracking |
+| **[methorz/openapi-generator](https://github.com/methorz/openapi-generator)** | Automatic OpenAPI spec generation |
+
+These packages work together seamlessly in PSR-15 applications.
+
+---
+
 ## 📄 License
 
 MIT License. See [LICENSE](LICENSE) for details.
@@ -452,7 +468,8 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 🔗 Links
 
-- [Documentation](docs/)
 - [Changelog](CHANGELOG.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
 - [Issues](https://github.com/MethorZ/http-cache-middleware/issues)
 

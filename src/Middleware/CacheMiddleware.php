@@ -97,7 +97,6 @@ final readonly class CacheMiddleware implements MiddlewareInterface
      * Handle If-None-Match conditional requests
      *
      * @throws \InvalidArgumentException
-     * @throws \Laminas\Diactoros\Exception\InvalidArgumentException
      */
     private function handleConditionalRequest(
         ServerRequestInterface $request,

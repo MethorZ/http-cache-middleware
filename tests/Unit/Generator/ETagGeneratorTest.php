@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace MethorZ\HttpCache\Tests\Unit\Generator;
 
-use Laminas\Diactoros\Response;
-use Laminas\Diactoros\Stream;
+use Nyholm\Psr7\Response;
+use Nyholm\Psr7\Stream;
 use MethorZ\HttpCache\Generator\ETagGenerator;
 use PHPUnit\Framework\TestCase;
 
@@ -14,7 +14,7 @@ final class ETagGeneratorTest extends TestCase
     public function testGeneratesStrongEtag(): void
     {
         $response = new Response();
-        $body = new Stream('php://temp', 'wb+');
+        $body = new Stream(fopen('php://temp', 'r+'));
         $body->write('test content');
         $response = $response->withBody($body);
 
@@ -28,7 +28,7 @@ final class ETagGeneratorTest extends TestCase
     public function testGeneratesWeakEtag(): void
     {
         $response = new Response();
-        $body = new Stream('php://temp', 'wb+');
+        $body = new Stream(fopen('php://temp', 'r+'));
         $body->write('test content');
         $response = $response->withBody($body);
 
@@ -43,12 +43,12 @@ final class ETagGeneratorTest extends TestCase
         $content = 'identical content';
 
         $response1 = new Response();
-        $body1 = new Stream('php://temp', 'wb+');
+        $body1 = new Stream(fopen('php://temp', 'r+'));
         $body1->write($content);
         $response1 = $response1->withBody($body1);
 
         $response2 = new Response();
-        $body2 = new Stream('php://temp', 'wb+');
+        $body2 = new Stream(fopen('php://temp', 'r+'));
         $body2->write($content);
         $response2 = $response2->withBody($body2);
 
@@ -61,12 +61,12 @@ final class ETagGeneratorTest extends TestCase
     public function testGeneratesDifferentEtagForDifferentContent(): void
     {
         $response1 = new Response();
-        $body1 = new Stream('php://temp', 'wb+');
+        $body1 = new Stream(fopen('php://temp', 'r+'));
         $body1->write('content 1');
         $response1 = $response1->withBody($body1);
 
         $response2 = new Response();
-        $body2 = new Stream('php://temp', 'wb+');
+        $body2 = new Stream(fopen('php://temp', 'r+'));
         $body2->write('content 2');
         $response2 = $response2->withBody($body2);
 
@@ -79,7 +79,7 @@ final class ETagGeneratorTest extends TestCase
     public function testGeneratesWithDifferentAlgorithms(): void
     {
         $response = new Response();
-        $body = new Stream('php://temp', 'wb+');
+        $body = new Stream(fopen('php://temp', 'r+'));
         $body->write('test');
         $response = $response->withBody($body);
 
